@@ -76,6 +76,7 @@ jobs:
           CONFIG_MODULES=y
           CONFIG_HAVE_DOT_CONFIG=y
           CONFIG_TARGET_ramips=y
+          CONFIG_TARGET_octeontx is not set
           CONFIG_TARGET_ramips_mt7621=y
           CONFIG_TARGET_ramips_mt7621_DEVICE_hiwifi_hc5962=y
           CONFIG_HAS_SUBTARGETS=y
@@ -1023,6 +1024,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_Plugin=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
           CONFIG_PACKAGE_luci-app-store=y
+          CONFIG_PACKAGE_luci-app-syncdial=y
           CONFIG_PACKAGE_luci-app-turboacc=y
           CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE=y
           CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_BBR_CCA=y
@@ -1238,6 +1240,7 @@ jobs:
           CONFIG_PACKAGE_TAR_ZSTD=y
           CONFIG_PACKAGE_tini=y
           CONFIG_PACKAGE_ubi-utils=y
+
           EOF
           #
           # ===============================================================
